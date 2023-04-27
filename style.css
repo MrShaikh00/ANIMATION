@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.box{
+    background-color: blue;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: ahsan;
+    animation-duration: 1s;
+    animation-timing-function: 2s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    -o-animation-direction: ease-in;
+}
+.box1{
+    background-color: rgb(240, 159, 9);
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: ahsan;
+    animation-duration: 1s;
+    animation-timing-function: 2s;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    -o-animation-direction: ease-in-out;
+}
+.box2{
+    background-color: rgb(103, 241, 10);
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: ahsan;
+    animation-duration: 1s;
+    animation-timing-function: 2s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    -o-animation-direction: ease-in-out;
+}
+.box3{
+    background-color: rgb(243, 9, 204);
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: ahsan;
+    animation-duration: 1s;
+    animation-timing-function: 2s;
+    animation-delay: 0.5s;
+    animation-direction: inherit;
+    animation-iteration-count: infinite;
+    -o-animation-direction: ease-in-out;
+}
+@keyframes ahsan {
+    from{
+        margin-top: 0%;        
+    }
+    to{
+      margin-top:30%;  
+    }
+}
+.ahsan{
+    background-color: black;
+    color: yellow;
+    border: 2px solid red;
+    padding: 10px;
+    height: 20px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
